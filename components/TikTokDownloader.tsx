@@ -21,11 +21,11 @@ export default function TikTokDownloader() {
     setError('');
 
     try {
-      const response = await fetch("https://api.downloadtiktokvideosinhd.com/api/download"
+      const response = await fetch("http://168.231.111.210:5000/api/download"
 , {
         method: "POST",
         headers: {
-          "Content-Type": "application/json"
+          "Content-Type": "application/json"          
         },
         body: JSON.stringify({
           url: url,
@@ -67,7 +67,7 @@ export default function TikTokDownloader() {
         <div className="flex items-center gap-3">
           <Download className="h-8 w-8" />
           <div>
-            <h1 className="text-2xl font-bold">Download TikTok vedios in HD</h1>
+            <h1 className="text-2xl font-bold">Download TikTok videos in HD</h1>
             <p className="text-pink-100">Download HD videos without watermark</p>
           </div>
         </div>
