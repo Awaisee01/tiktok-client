@@ -21,7 +21,8 @@ export default function TikTokDownloader() {
     setError('');
 
     try {
-      const response = await fetch("http://168.231.111.210:5000/api/download", {
+      const response = await fetch("https://api.downloadtiktokvideosinhd.com/api/download"
+, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
