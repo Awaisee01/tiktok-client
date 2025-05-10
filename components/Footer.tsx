@@ -87,13 +87,13 @@ export default function Footer() {
           {/* Contact Info */}
           <div className="col-span-2 md:col-span-1">
             <h4 className="text-base sm:text-lg font-semibold mb-3 sm:mb-4">Contact</h4>
-            <p className="text-sm sm:text-base text-gray-400">support@tiktokdownloader.com</p>
+            <p className="text-sm sm:text-base text-gray-400">datanews553@gmail.com</p>
           </div>
         </div>
 
         {/* Copyright */}
         <div className="border-t border-gray-800 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-sm sm:text-base text-gray-400">
-          <p>© {new Date().getFullYear()} TikTokDownloader. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} TikTokDownloader. All rights reserved by Data News.</p>
         </div>
       </div>
     </footer>
